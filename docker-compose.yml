@@ -10,4 +10,4 @@ services:
       - ./routers.json:/app/routers.json
     environment:
       - TZ=Europe/Moscow
-      - MIN_OFFLINE_THRESHOLD=30 
+      - MIN_OFFLINE_THRESHOLD=120 

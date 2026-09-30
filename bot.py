@@ -29,7 +29,7 @@ ADMIN_CHAT_ID = int(os.getenv('ADMIN_CHAT_ID'))
 
 # Минимальное время офлайн для отправки уведомления (в секундах)
 # Можно настроить через переменную окружения MIN_OFFLINE_THRESHOLD
-MIN_OFFLINE_THRESHOLD = int(os.getenv('MIN_OFFLINE_THRESHOLD', 30))
+MIN_OFFLINE_THRESHOLD = int(os.getenv('MIN_OFFLINE_THRESHOLD', 120))
 
 # Словарь для хранения последнего известного состояния роутеров
 router_states = {}

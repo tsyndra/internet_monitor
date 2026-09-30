@@ -48,7 +48,7 @@ ssh-keygen -t rsa -b 2048 -f keenetic_ssh_key
     "description": "MAIN",
     "ssh_access": {
         "username": "admin",
-        "key_path": "/home/workdir/zabbiz-hati-tg-bot/keenetic_ssh_key"
+        "key_path": "/home/workdir/internet_monitor/keenetic_ssh_key"
     },
     "lte_gateway": "192.168.0.1"
 }
